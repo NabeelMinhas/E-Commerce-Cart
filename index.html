@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css">
+      <script src="jsscript.js"></script>
+      <title>Cart Page</title>
+  </head>
+  <body>
+    <div class="cart-container">
+      <h1>Your Cart</h1>
+      <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <td>Example Item 1</td>
+              <td>
+                  2 
+                  <button class="add-quantity">+</button>
+                  <button class="reduce-quantity">-</button>
+              </td>
+              <td>$20.00</td>
+              <td><button class="delete-item">Delete</button></td>
+          </tr>
+          <tr>
+              <td>Example Item 2</td>
+              <td>
+                  1 
+                  <button class="add-quantity">+</button>
+                  <button class="reduce-quantity">-</button>
+              </td>
+              <td>$10.00</td>
+              <td><button class="delete-item">Delete</button></td>
+          </tr>
+        </tbody>
+
+        <div class="add-item">
+          <button class="add-new-item">Add New Item</button>
+        </div>
+      </table>
+    </div>
+  </body>
+</html>

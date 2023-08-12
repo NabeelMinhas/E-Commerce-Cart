@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.cart-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #e0e0e0;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+.total-price {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: right;
+}
+
+button {
+  padding: 5px 10px;
+  margin-left: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: #3498db;
+  color: white;
+}
+
+button.delete-item {
+  background-color: #e74c3c;
+}
+
+.add-item {
+  margin-top: 20px;
+  text-align: center;
+}
